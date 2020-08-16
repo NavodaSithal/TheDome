@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CurrencyView" customModule="iPay" customModuleProvider="target">
+            <connections>
+                <outlet property="lblTitle" destination="nsI-37-ed9" id="FgY-Pb-hhM"/>
+                <outlet property="viewbackground" destination="iN0-l3-epB" id="8YX-wF-ZXR"/>
+                <outletCollection property="btnTxn" destination="2P1-nY-ju4" collectionClass="NSMutableArray" id="8ih-ma-r9n"/>
+                <outletCollection property="btnTxn" destination="TnP-Kg-fs6" collectionClass="NSMutableArray" id="WMY-rP-NoS"/>
+                <outletCollection property="btnTxn" destination="KU3-gN-KnA" collectionClass="NSMutableArray" id="gjj-uc-GWg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fa9-uN-0t6">
+                    <rect key="frame" x="0.0" y="10" width="414" height="70"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="select_currency" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsI-37-ed9" customClass="IpayLabel" customModule="iPay" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="Brm-Pp-AFY"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="bEf-Wh-eHy">
+                            <rect key="frame" x="0.0" y="30" width="414" height="40"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2P1-nY-ju4">
+                                    <rect key="frame" x="0.0" y="0.0" width="118" height="40"/>
+                                    <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="qPQ-Q0-Lnv"/>
+                                    </constraints>
+                                    <state key="normal" title="KHR">
+                                        <color key="titleColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="onTapBtn:" destination="-1" eventType="touchUpInside" id="leO-9b-Ngn"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TnP-Kg-fs6">
+                                    <rect key="frame" x="148" y="0.0" width="118" height="40"/>
+                                    <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="XjV-wW-k90"/>
+                                    </constraints>
+                                    <state key="normal" title="USD">
+                                        <color key="titleColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="onTapBtn:" destination="-1" eventType="touchUpInside" id="cPD-ya-zgL"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KU3-gN-KnA">
+                                    <rect key="frame" x="296" y="0.0" width="118" height="40"/>
+                                    <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="MKX-wS-Fjg"/>
+                                    </constraints>
+                                    <state key="normal" title="THB">
+                                        <color key="titleColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="onTapBtn:" destination="-1" eventType="touchUpInside" id="yRA-hE-aac"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="KU3-gN-KnA" firstAttribute="height" secondItem="2P1-nY-ju4" secondAttribute="height" id="EjQ-cR-Q86"/>
+                                <constraint firstItem="KU3-gN-KnA" firstAttribute="width" secondItem="2P1-nY-ju4" secondAttribute="width" id="G33-D9-Kkp"/>
+                                <constraint firstItem="TnP-Kg-fs6" firstAttribute="height" secondItem="2P1-nY-ju4" secondAttribute="height" id="jY8-4u-Wk0"/>
+                                <constraint firstItem="TnP-Kg-fs6" firstAttribute="width" secondItem="2P1-nY-ju4" secondAttribute="width" id="tbv-dm-lg4"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="nsI-37-ed9" secondAttribute="trailing" id="2dm-Ii-gEa"/>
+                        <constraint firstAttribute="trailing" secondItem="bEf-Wh-eHy" secondAttribute="trailing" id="Hoq-vR-WoW"/>
+                        <constraint firstItem="bEf-Wh-eHy" firstAttribute="leading" secondItem="fa9-uN-0t6" secondAttribute="leading" id="jfg-TT-4Uj"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="fa9-uN-0t6" secondAttribute="bottom" constant="10" id="0l6-RW-70l"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="fa9-uN-0t6" secondAttribute="trailing" id="KpA-bg-Skp"/>
+                <constraint firstItem="fa9-uN-0t6" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Se0-lr-Xv8"/>
+                <constraint firstItem="fa9-uN-0t6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="lQV-Zq-mWr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="76.811594202898561" y="-133.25892857142856"/>
+        </view>
+    </objects>
+</document>

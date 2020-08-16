@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>539121510272-cqmuqi94p8ap6rmt9ivhak5ujjcc129k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.539121510272-cqmuqi94p8ap6rmt9ivhak5ujjcc129k</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>539121510272-2d69einlqqpjqdu853li5n28jtf23cav.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDI286r-bKDiemKTyRgGdc_wb0A0nt6XK0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>539121510272</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ipay.mobile.cam</string>
+	<key>PROJECT_ID</key>
+	<string>ipay-b9d21</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ipay-b9d21.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:539121510272:ios:a06676f432e8c1c3</string>
+	<key>DATABASE_URL</key>
+	<string>https://ipay-b9d21.firebaseio.com</string>
+</dict>
+</plist>

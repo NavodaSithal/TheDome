@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>Languages</key>
+	<array>
+		<string>English</string>
+		<string>Sinhala</string>
+		<string>Tamil</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Bluetooth is needed to scan the iBeacon</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Bluetooth is needed to scan the iBeacon</string>
+	<key>NSCameraUsageDescription</key>
+	<string>The camera is needed to scan QR codes and change to the user profile image</string>
+	<key>NSContactsUsageDescription</key>
+	<string>iPay syncs only phone numbers from your address book to iPay servers to help you sending money to other iPay users just by swiping.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Enabling Face ID allows you autherize your Payment</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location is needed to scan the iBeacon</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Enable microphone access to play audio so that you can request money.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photo library need to access change to the user profile image</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ThejaneeSans-Regular.ttf</string>
+		<string>RobotoCondensed-Regular.ttf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Main</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+</dict>
+</plist>

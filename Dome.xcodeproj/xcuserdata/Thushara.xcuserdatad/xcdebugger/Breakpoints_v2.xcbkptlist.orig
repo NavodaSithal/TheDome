@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iPay/AccountAssociationHandler.swift"
+            timestampString = "533034343.732675"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "verifyAccount(upid:amount1:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iPay/LauncherViewController.swift"
+            timestampString = "532607475.757427"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iPay/PaymentViewController.swift"
+            timestampString = "534923446.586016"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "337"
+            endingLineNumber = "337"
+            landmarkName = "favoritesIconChange()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iPay.PaymentViewController.favoritesIconChange() -&gt; ()"
+                  moduleName = "iPay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///office/projects/ipay/bitbucket/ios/loit_git/ipay-app-ios/iPay/PaymentViewController.swift"
+<<<<<<< HEAD
+                  timestampString = "535024020.654356"
+=======
+                  timestampString = "535269245.469564"
+>>>>>>> feature/utility
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "337"
+                  endingLineNumber = "337"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iPay.PaymentViewController.favoritesIconChange() -&gt; ()"
+                  moduleName = "iPay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///office/projects/ipay/bitbucket/ios/loit_git/ipay-app-ios/iPay/PaymentViewController.swift"
+<<<<<<< HEAD
+                  timestampString = "535024020.655812"
+=======
+                  timestampString = "535269245.471012"
+>>>>>>> feature/utility
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "337"
+                  endingLineNumber = "337"
+                  offsetFromSymbolStart = "1872">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iPay/PaymentViewController.swift"
+            timestampString = "534923446.586085"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "339"
+            endingLineNumber = "339"
+            landmarkName = "favoritesIconChange()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iPay.PaymentViewController.favoritesIconChange() -&gt; ()"
+                  moduleName = "iPay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///office/projects/ipay/bitbucket/ios/loit_git/ipay-app-ios/iPay/PaymentViewController.swift"
+<<<<<<< HEAD
+                  timestampString = "535024020.659365"
+=======
+                  timestampString = "535269245.474284"
+>>>>>>> feature/utility
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "339"
+                  endingLineNumber = "339"
+                  offsetFromSymbolStart = "1000">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (iPay.FavouriteMerchant) -&gt; Swift.Bool in iPay.PaymentViewController.favoritesIconChange() -&gt; ()"
+                  moduleName = "iPay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///office/projects/ipay/bitbucket/ios/loit_git/ipay-app-ios/iPay/PaymentViewController.swift"
+<<<<<<< HEAD
+                  timestampString = "535024020.660929"
+=======
+                  timestampString = "535269245.475668"
+>>>>>>> feature/utility
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "340"
+                  endingLineNumber = "340"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iPay/PaymentViewController.swift"
+            timestampString = "534923446.586135"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "340"
+            endingLineNumber = "340"
+            landmarkName = "favoritesIconChange()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

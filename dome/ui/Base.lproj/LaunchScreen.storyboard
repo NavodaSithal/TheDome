@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ProximaNovaCond-Regular.otf">
+            <string>ProximaNovaCond-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="K5C-68-Q7D">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0.3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLs-kJ-9HF">
+                                <rect key="frame" x="20" y="579" width="335" height="23.5"/>
+                                <fontDescription key="fontDescription" name="ProximaNovaCond-Regular" family="Proxima Nova Condensed" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © iPay , 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vcq-QU-Amc">
+                                <rect key="frame" x="16" y="610.5" width="343" height="23.5"/>
+                                <fontDescription key="fontDescription" name="ProximaNovaCond-Regular" family="Proxima Nova Condensed" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="VM2-Dk-zVC">
+                                <rect key="frame" x="87" y="233" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="GsU-iH-IKU"/>
+                                    <constraint firstAttribute="width" constant="200" id="a6T-Nk-U87"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="K5C-68-Q7D" secondAttribute="trailing" id="1GX-nI-Uly"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Vcq-QU-Amc" secondAttribute="trailing" id="5lJ-ph-PEN"/>
+                            <constraint firstItem="VM2-Dk-zVC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8Rh-oq-kkf"/>
+                            <constraint firstItem="K5C-68-Q7D" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="EVJ-Co-02v"/>
+                            <constraint firstItem="Vcq-QU-Amc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="GIN-If-nnc"/>
+                            <constraint firstItem="K5C-68-Q7D" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="JiR-kG-URa"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Vcq-QU-Amc" secondAttribute="bottom" constant="33" id="Nzt-aj-89f"/>
+                            <constraint firstItem="WLs-kJ-9HF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="4" id="Rlt-bM-2dP"/>
+                            <constraint firstItem="Vcq-QU-Amc" firstAttribute="top" secondItem="WLs-kJ-9HF" secondAttribute="bottom" constant="8" symbolic="YES" id="TkR-Hs-IEl"/>
+                            <constraint firstItem="VM2-Dk-zVC" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bei-da-aKA"/>
+                            <constraint firstItem="WLs-kJ-9HF" firstAttribute="centerX" secondItem="Vcq-QU-Amc" secondAttribute="centerX" id="cTC-6v-nqe"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="K5C-68-Q7D" secondAttribute="bottom" id="xrX-qi-fz6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="375" height="667"/>
+        <image name="launch" width="125" height="125"/>
+    </resources>
+</document>
