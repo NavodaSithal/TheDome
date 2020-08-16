@@ -38,6 +38,9 @@ class LanguageSecVC: CustomRootViewController {
         switchViewControllers(isArabic : true)
     }
     
+    @IBAction func clickMenu(_ sender: Any) {
+        gotoMenu()
+    }
     
     func switchViewControllers(isArabic arabic : Bool){
         UIView.appearance().semanticContentAttribute = arabic ? .forceRightToLeft : .forceLeftToRight

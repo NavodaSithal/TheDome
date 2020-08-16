@@ -10,6 +10,24 @@
 "arab" = "عربى";
 "events" = "Events";
 "football" = "FootBall";
+"step1" = "step 01 : ";
+"sel_venue" = "Select Venue";
+"air_dome" = "Air Dome";
+"next" = "Next";
+"ground_reservation" = "Ground Reservations";
+"back" = "Back";
+"step2" = "step 02 : ";
+"sel_pitch" = "Select The Pitch";
+"step3" = "step 03 : ";
+"select_gender" = "Select Gender of Players";
+"male" = "Male";
+"female" = "Female";
+"dashboard" = "Dashboard";
+"bookings" = "Bookings";
+"invoices" = "Invoices";
+"customer_support" = "Customer Support";
+"gallery" = "Gallery";
+"logout" = "Logout";
 "" = "";
 "" = "";
 "" = "";
@@ -23,9 +41,9 @@
 "" = "";
 "" = "";
 "" = "";
-"" = "";
-"" = "";
-"" = "";
-"" = "";
-"" = "";
-"" = "";
+
+
+
+
+
+

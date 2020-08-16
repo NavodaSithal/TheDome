@@ -189,12 +189,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //    }
     
     func initrootView(){
-        
         LocalizationMain.getBundle()
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let mainNavigator : UINavigationController = storyboard.instantiateViewController(withIdentifier: "MainNavigatorScene") as! UINavigationController
         window?.rootViewController = mainNavigator
     }
+    
  }
 // [START ios_10_message_handling]
 @available(iOS 10, *)

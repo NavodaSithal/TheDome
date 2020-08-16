@@ -62,6 +62,12 @@
 		785587D824E84BB40062D5AF /* TimerApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587D724E84BB40062D5AF /* TimerApplication.swift */; };
 		785587DA24E855CF0062D5AF /* LanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587D924E855CF0062D5AF /* LanguageVC.swift */; };
 		785587DC24E86E8D0062D5AF /* LanguageSecVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587DB24E86E8D0062D5AF /* LanguageSecVC.swift */; };
+		785587E024E93FEE0062D5AF /* BookingOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587DF24E93FEE0062D5AF /* BookingOneVC.swift */; };
+		785587E224E944EA0062D5AF /* BookingTwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587E124E944EA0062D5AF /* BookingTwoVC.swift */; };
+		785587E524E94CD90062D5AF /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587E424E94CD90062D5AF /* Pitch.swift */; };
+		785587E724E94D6A0062D5AF /* PitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587E624E94D6A0062D5AF /* PitchCell.swift */; };
+		785587E924E970CD0062D5AF /* BookingThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587E824E970CD0062D5AF /* BookingThreeVC.swift */; };
+		785587EB24E990770062D5AF /* MenuVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587EA24E990770062D5AF /* MenuVc.swift */; };
 		9E16B88F20639B640004F4B3 /* BhashitaComplex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E16B88E20639B630004F4B3 /* BhashitaComplex.ttf */; };
 		9E1845A01FEBB9F100A3F8D8 /* BindKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18459F1FEBB9F100A3F8D8 /* BindKeyBoard.swift */; };
 		9E2031AE2280503D0098C8FA /* cambodiacert.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9E2031AD2280503C0098C8FA /* cambodiacert.cer */; };
@@ -176,6 +182,12 @@
 		785587DB24E86E8D0062D5AF /* LanguageSecVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSecVC.swift; sourceTree = "<group>"; };
 		785587DD24E8F2550062D5AF /* dome.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = dome.entitlements; sourceTree = "<group>"; };
 		785587DE24E8FD460062D5AF /* ar_IQ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar_IQ; path = ar_IQ.lproj/Localizable.strings; sourceTree = "<group>"; };
+		785587DF24E93FEE0062D5AF /* BookingOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingOneVC.swift; sourceTree = "<group>"; };
+		785587E124E944EA0062D5AF /* BookingTwoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTwoVC.swift; sourceTree = "<group>"; };
+		785587E424E94CD90062D5AF /* Pitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
+		785587E624E94D6A0062D5AF /* PitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchCell.swift; sourceTree = "<group>"; };
+		785587E824E970CD0062D5AF /* BookingThreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingThreeVC.swift; sourceTree = "<group>"; };
+		785587EA24E990770062D5AF /* MenuVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVc.swift; sourceTree = "<group>"; };
 		9E05EE292105CE5700D27B0F /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E16B88E20639B630004F4B3 /* BhashitaComplex.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BhashitaComplex.ttf; sourceTree = "<group>"; };
 		9E18459F1FEBB9F100A3F8D8 /* BindKeyBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindKeyBoard.swift; sourceTree = "<group>"; };
@@ -257,6 +269,10 @@
 				9EFD442A2059480000C79D58 /* SplashViewController.swift */,
 				785587D924E855CF0062D5AF /* LanguageVC.swift */,
 				785587DB24E86E8D0062D5AF /* LanguageSecVC.swift */,
+				785587DF24E93FEE0062D5AF /* BookingOneVC.swift */,
+				785587E124E944EA0062D5AF /* BookingTwoVC.swift */,
+				785587E824E970CD0062D5AF /* BookingThreeVC.swift */,
+				785587EA24E990770062D5AF /* MenuVc.swift */,
 				785587BA24E839E70062D5AF /* ErrorPopupViewController.swift */,
 				785587B924E839E70062D5AF /* TwoButtonPopupVC.swift */,
 				353C780C23952D540036C754 /* TermsViewComntroller.swift */,
@@ -404,6 +420,14 @@
 			path = server_commons;
 			sourceTree = "<group>";
 		};
+		785587E324E94CC70062D5AF /* booking */ = {
+			isa = PBXGroup;
+			children = (
+				785587E424E94CD90062D5AF /* Pitch.swift */,
+			);
+			path = booking;
+			sourceTree = "<group>";
+		};
 		9E2E90EA1FC6A18700CCFC9C /* localization */ = {
 			isa = PBXGroup;
 			children = (
@@ -426,6 +450,7 @@
 		9E33F33722CDD5CF00B13D92 /* cells */ = {
 			isa = PBXGroup;
 			children = (
+				785587E624E94D6A0062D5AF /* PitchCell.swift */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -433,6 +458,7 @@
 		9E351CD21F7249AE00EA1AD9 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				785587E324E94CC70062D5AF /* booking */,
 				785587BE24E83C380062D5AF /* server_commons */,
 			);
 			path = models;
@@ -693,12 +719,14 @@
 				173682281E836AB9003F45D2 /* SSLCertificateVerification.swift in Sources */,
 				785587CE24E83C9D0062D5AF /* IpayResponseObject.swift in Sources */,
 				9E4E66F720D3CB4B00DB5CFB /* RangeSeekSliderDelegate.swift in Sources */,
+				785587E024E93FEE0062D5AF /* BookingOneVC.swift in Sources */,
 				9E1845A01FEBB9F100A3F8D8 /* BindKeyBoard.swift in Sources */,
 				9EFD442B2059480000C79D58 /* SplashViewController.swift in Sources */,
 				785587CA24E83C9D0062D5AF /* IpayResponseArray.swift in Sources */,
 				9E4E66F620D3CB4B00DB5CFB /* RangeSeekSlider.swift in Sources */,
 				785587D224E83C9D0062D5AF /* ApplicationVersionResponse.swift in Sources */,
 				35676BA723D589A2009038CC /* ShadowView.swift in Sources */,
+				785587E524E94CD90062D5AF /* Pitch.swift in Sources */,
 				785587BC24E839E70062D5AF /* ErrorPopupViewController.swift in Sources */,
 				17A88BD61F005EBA00F83EA6 /* PKI.swift in Sources */,
 				17A88BD71F005EBA00F83EA6 /* RSAWrapper.swift in Sources */,
@@ -712,11 +740,13 @@
 				17A88BD91F005FF300F83EA6 /* CryptoiOS.xcdatamodel in Sources */,
 				9E9A33C2206A628800A0B9B3 /* Crypto.swift in Sources */,
 				9E2E90EC1FC6A1DC00CCFC9C /* LocalizationMain.swift in Sources */,
+				785587E924E970CD0062D5AF /* BookingThreeVC.swift in Sources */,
 				351DEFF120C8F65D001EE33D /* IQKeyboardManagerConstants.swift in Sources */,
 				785587CF24E83C9D0062D5AF /* HttpMethod.swift in Sources */,
 				9E45E58B204059A600C4E911 /* IpaySearchBar.swift in Sources */,
 				785587CB24E83C9D0062D5AF /* SSLRequestParams.swift in Sources */,
 				171102921E80E8EF0035EF09 /* Settings.swift in Sources */,
+				785587E724E94D6A0062D5AF /* PitchCell.swift in Sources */,
 				353C781123952EDA0036C754 /* CommonSettingsCell.swift in Sources */,
 				351DEFF220C8F65D001EE33D /* IQKeyboardReturnKeyHandler.swift in Sources */,
 				9E4E66F520D3CB4B00DB5CFB /* TapticEngine.swift in Sources */,
@@ -731,8 +761,10 @@
 				785587CD24E83C9D0062D5AF /* CustomJSONSerializer.swift in Sources */,
 				785587D424E83C9D0062D5AF /* ResponseClass.swift in Sources */,
 				9E2E90EE1FC6A30100CCFC9C /* IpayLabel.swift in Sources */,
+				785587E224E944EA0062D5AF /* BookingTwoVC.swift in Sources */,
 				785587DC24E86E8D0062D5AF /* LanguageSecVC.swift in Sources */,
 				785587CC24E83C9D0062D5AF /* IpaySuccessMessageResponse.swift in Sources */,
+				785587EB24E990770062D5AF /* MenuVc.swift in Sources */,
 				785587D124E83C9D0062D5AF /* PropertyKey.swift in Sources */,
 				35FA63C42164D772009A32CD /* customUiSlider.swift in Sources */,
 				785587B824E839390062D5AF /* CustomRootViewController.swift in Sources */,

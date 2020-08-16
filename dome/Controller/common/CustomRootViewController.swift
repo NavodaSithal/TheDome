@@ -85,6 +85,11 @@ extension UIViewController{
     @objc func dismissKeyboard() {
         view.endEditing(true)
     }
+    
+    func gotoMenu(){
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "menu") as! MenuVc
+        self.present(vc, animated: true, completion: nil)
+    }
 }
 
 extension UIColor {
