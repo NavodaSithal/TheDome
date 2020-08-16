@@ -68,6 +68,8 @@
 		785587E724E94D6A0062D5AF /* PitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587E624E94D6A0062D5AF /* PitchCell.swift */; };
 		785587E924E970CD0062D5AF /* BookingThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587E824E970CD0062D5AF /* BookingThreeVC.swift */; };
 		785587EB24E990770062D5AF /* MenuVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587EA24E990770062D5AF /* MenuVc.swift */; };
+		785587ED24E99E9F0062D5AF /* BookingFourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587EC24E99E9F0062D5AF /* BookingFourVC.swift */; };
+		785587EF24E9A2D80062D5AF /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587EE24E9A2D80062D5AF /* DateCell.swift */; };
 		9E16B88F20639B640004F4B3 /* BhashitaComplex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E16B88E20639B630004F4B3 /* BhashitaComplex.ttf */; };
 		9E1845A01FEBB9F100A3F8D8 /* BindKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18459F1FEBB9F100A3F8D8 /* BindKeyBoard.swift */; };
 		9E2031AE2280503D0098C8FA /* cambodiacert.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9E2031AD2280503C0098C8FA /* cambodiacert.cer */; };
@@ -188,6 +190,8 @@
 		785587E624E94D6A0062D5AF /* PitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchCell.swift; sourceTree = "<group>"; };
 		785587E824E970CD0062D5AF /* BookingThreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingThreeVC.swift; sourceTree = "<group>"; };
 		785587EA24E990770062D5AF /* MenuVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVc.swift; sourceTree = "<group>"; };
+		785587EC24E99E9F0062D5AF /* BookingFourVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingFourVC.swift; sourceTree = "<group>"; };
+		785587EE24E9A2D80062D5AF /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
 		9E05EE292105CE5700D27B0F /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E16B88E20639B630004F4B3 /* BhashitaComplex.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BhashitaComplex.ttf; sourceTree = "<group>"; };
 		9E18459F1FEBB9F100A3F8D8 /* BindKeyBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindKeyBoard.swift; sourceTree = "<group>"; };
@@ -272,6 +276,7 @@
 				785587DF24E93FEE0062D5AF /* BookingOneVC.swift */,
 				785587E124E944EA0062D5AF /* BookingTwoVC.swift */,
 				785587E824E970CD0062D5AF /* BookingThreeVC.swift */,
+				785587EC24E99E9F0062D5AF /* BookingFourVC.swift */,
 				785587EA24E990770062D5AF /* MenuVc.swift */,
 				785587BA24E839E70062D5AF /* ErrorPopupViewController.swift */,
 				785587B924E839E70062D5AF /* TwoButtonPopupVC.swift */,
@@ -451,6 +456,7 @@
 			isa = PBXGroup;
 			children = (
 				785587E624E94D6A0062D5AF /* PitchCell.swift */,
+				785587EE24E9A2D80062D5AF /* DateCell.swift */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -713,10 +719,12 @@
 			files = (
 				351DEFF520C8F65D001EE33D /* IQUITextFieldView+Additions.swift in Sources */,
 				9E9061392146560F00D066C2 /* MinioServices.swift in Sources */,
+				785587ED24E99E9F0062D5AF /* BookingFourVC.swift in Sources */,
 				9EFD442720567C7100C79D58 /* IpayBarButtonItem.swift in Sources */,
 				353B7C3A20263FC100B1EEEB /* DesignableUITextField.swift in Sources */,
 				351DEFF620C8F65D001EE33D /* IQUIView+Hierarchy.swift in Sources */,
 				173682281E836AB9003F45D2 /* SSLCertificateVerification.swift in Sources */,
+				785587EF24E9A2D80062D5AF /* DateCell.swift in Sources */,
 				785587CE24E83C9D0062D5AF /* IpayResponseObject.swift in Sources */,
 				9E4E66F720D3CB4B00DB5CFB /* RangeSeekSliderDelegate.swift in Sources */,
 				785587E024E93FEE0062D5AF /* BookingOneVC.swift in Sources */,
