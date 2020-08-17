@@ -70,6 +70,8 @@
 		785587EB24E990770062D5AF /* MenuVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587EA24E990770062D5AF /* MenuVc.swift */; };
 		785587ED24E99E9F0062D5AF /* BookingFourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587EC24E99E9F0062D5AF /* BookingFourVC.swift */; };
 		785587EF24E9A2D80062D5AF /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785587EE24E9A2D80062D5AF /* DateCell.swift */; };
+		78BBEC6124EAF67400D47A5D /* temp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BBEC6024EAF67400D47A5D /* temp.storyboard */; };
+		78BBEC6324EB025300D47A5D /* BookingFiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BBEC6224EB025300D47A5D /* BookingFiveVC.swift */; };
 		9E16B88F20639B640004F4B3 /* BhashitaComplex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E16B88E20639B630004F4B3 /* BhashitaComplex.ttf */; };
 		9E1845A01FEBB9F100A3F8D8 /* BindKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18459F1FEBB9F100A3F8D8 /* BindKeyBoard.swift */; };
 		9E2031AE2280503D0098C8FA /* cambodiacert.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9E2031AD2280503C0098C8FA /* cambodiacert.cer */; };
@@ -192,6 +194,8 @@
 		785587EA24E990770062D5AF /* MenuVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVc.swift; sourceTree = "<group>"; };
 		785587EC24E99E9F0062D5AF /* BookingFourVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingFourVC.swift; sourceTree = "<group>"; };
 		785587EE24E9A2D80062D5AF /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		78BBEC6024EAF67400D47A5D /* temp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = temp.storyboard; sourceTree = "<group>"; };
+		78BBEC6224EB025300D47A5D /* BookingFiveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingFiveVC.swift; sourceTree = "<group>"; };
 		9E05EE292105CE5700D27B0F /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E16B88E20639B630004F4B3 /* BhashitaComplex.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BhashitaComplex.ttf; sourceTree = "<group>"; };
 		9E18459F1FEBB9F100A3F8D8 /* BindKeyBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindKeyBoard.swift; sourceTree = "<group>"; };
@@ -277,6 +281,7 @@
 				785587E124E944EA0062D5AF /* BookingTwoVC.swift */,
 				785587E824E970CD0062D5AF /* BookingThreeVC.swift */,
 				785587EC24E99E9F0062D5AF /* BookingFourVC.swift */,
+				78BBEC6224EB025300D47A5D /* BookingFiveVC.swift */,
 				785587EA24E990770062D5AF /* MenuVc.swift */,
 				785587BA24E839E70062D5AF /* ErrorPopupViewController.swift */,
 				785587B924E839E70062D5AF /* TwoButtonPopupVC.swift */,
@@ -478,6 +483,7 @@
 				9E8D74D420296B61005BC7F9 /* classes */,
 				17141CB21ECC11F7005234DB /* Main.storyboard */,
 				368D49691E8B8B8000353548 /* UIViewExtension.swift */,
+				78BBEC6024EAF67400D47A5D /* temp.storyboard */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -629,6 +635,7 @@
 				17D421331E9B53C600F5A6F3 /* terms.html in Resources */,
 				35197757204968E500EE8FBF /* ProximaNovaCond-Semibold.otf in Resources */,
 				351CF3D220491BD70083E8D4 /* ProximaNovaCond-Regular.otf in Resources */,
+				78BBEC6124EAF67400D47A5D /* temp.storyboard in Resources */,
 				745E88D01E7417C000A115B9 /* Localizable.strings in Resources */,
 				357D3DC82456A5B90003189A /* CurrencyView.xib in Resources */,
 				361DF6871E4C545D00A72E6D /* Assets.xcassets in Resources */,
@@ -757,6 +764,7 @@
 				785587E724E94D6A0062D5AF /* PitchCell.swift in Sources */,
 				353C781123952EDA0036C754 /* CommonSettingsCell.swift in Sources */,
 				351DEFF220C8F65D001EE33D /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				78BBEC6324EB025300D47A5D /* BookingFiveVC.swift in Sources */,
 				9E4E66F520D3CB4B00DB5CFB /* TapticEngine.swift in Sources */,
 				9E6B876920B528E200E802D4 /* SessionDelegate.swift in Sources */,
 				9E2E90F21FC6EBFF00CCFC9C /* IpayTextField.swift in Sources */,

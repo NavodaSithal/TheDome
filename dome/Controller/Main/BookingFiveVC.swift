@@ -1,16 +1,15 @@
 //
-//  BookingFourVC.swift
+//  BookingFiveVC.swift
 //  Dome
 //
-//  Created by Thushara Wijekoon on 8/16/20.
+//  Created by Thushara Wijekoon on 8/17/20.
 //  Copyright © 2020 iPay. All rights reserved.
 //
 
 import Foundation
 import UIKit
-import SDWebImage
 
-class BookingFourVC: CustomRootViewController {
+class BookingFiveVC: CustomRootViewController {
     
     @IBOutlet weak var tblPitches: UITableView!
     var merchantList : [Pitch] = []
@@ -43,7 +42,7 @@ class BookingFourVC: CustomRootViewController {
     }
     
     @IBAction func clickNext(_ sender: Any) {
-         performSegue(withIdentifier: "book_four_to_five", sender: self)
+         performSegue(withIdentifier: "book_two_to_three", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -55,7 +54,7 @@ class BookingFourVC: CustomRootViewController {
     }
 }
 
-extension BookingFourVC : UITableViewDelegate , UITableViewDataSource {
+extension BookingFiveVC : UITableViewDelegate , UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return merchantList.count

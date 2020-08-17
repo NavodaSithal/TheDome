@@ -49,6 +49,7 @@ class BookingThreeVC: CustomRootViewController {
     }
     
     @IBAction func clickNext(_ sender: Any) {
+         performSegue(withIdentifier: "book_three_to_four", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
