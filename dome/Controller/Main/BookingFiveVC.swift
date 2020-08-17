@@ -11,11 +11,14 @@ import UIKit
 
 class BookingFiveVC: CustomRootViewController {
     
+    @IBOutlet weak var lblTerms: UILabel!
     @IBOutlet weak var tblPitches: UITableView!
     var merchantList : [Pitch] = []
+    var termsText = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setTermsText()
 //        let obj = Pitch()
 //        obj.name = "test"
 //        obj.desc = "sdf"
@@ -23,6 +26,38 @@ class BookingFiveVC: CustomRootViewController {
 //        obj.image = "https://internetgovernancehub.blog/wp-content/uploads/2019/05/google.jpg"
 //        merchantList.append(obj)
 //        tblPitches.reloadData()
+    }
+    
+    func setTermsText(){
+        termsText = "\(getLocalizedString(key: "i_have_read_accept_the")) \(getLocalizedString(key: "terms_conditions")) \(getLocalizedString(key: "and")) \(getLocalizedString(key: "release_agreement")) "
+        lblTerms.text = termsText
+        self.lblTerms.textColor =  UIColor(hexString: "#4A4A4A")
+        let underlineAttriString = NSMutableAttributedString(string: termsText)
+        let range1 = (termsText as NSString).range(of: getLocalizedString(key: "terms_conditions"))
+        let range2 = (termsText as NSString).range(of: getLocalizedString(key: "release_agreement"))
+        underlineAttriString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor(hexString: "#F57129"), range: range1)
+         underlineAttriString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor(hexString: "#F57129"), range: range2)
+        
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.lineSpacing = 5  
+        underlineAttriString.addAttribute(.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, underlineAttriString.length))
+        lblTerms.attributedText = underlineAttriString
+        lblTerms.isUserInteractionEnabled = true
+        lblTerms.addGestureRecognizer(UITapGestureRecognizer(target:self, action: #selector(tapLabel(gesture:))))
+    }
+    
+    @IBAction func tapLabel(gesture: UITapGestureRecognizer) {
+       let termsRange = (termsText as NSString).range(of: getLocalizedString(key: "terms_conditions"))
+       // comment for now
+       let agrementRange = (termsText as NSString).range(of: getLocalizedString(key: "release_agreement"))
+
+       if gesture.didTapAttributedTextInLabel(label: lblTerms, inRange: termsRange) {
+           print("Tapped terms")
+       } else if gesture.didTapAttributedTextInLabel(label: lblTerms, inRange: agrementRange) {
+           print("Tapped privacy")
+       } else {
+           print("Tapped none")
+       }
     }
     
     @IBAction func goBack(_ sender: Any) {
@@ -82,4 +117,38 @@ extension BookingFiveVC : UITableViewDelegate , UITableViewDataSource {
         //        performSegue(withIdentifier: "ratingLoan", sender: self)
     }
     
+}
+
+extension UITapGestureRecognizer {
+    func didTapAttributedTextInLabel(label: UILabel, inRange targetRange: NSRange) -> Bool {
+        // Create instances of NSLayoutManager, NSTextContainer and NSTextStorage
+        let layoutManager = NSLayoutManager()
+        let textContainer = NSTextContainer(size: CGSize.zero)
+        let textStorage = NSTextStorage(attributedString: label.attributedText!)
+
+        // Configure layoutManager and textStorage
+        layoutManager.addTextContainer(textContainer)
+        textStorage.addLayoutManager(layoutManager)
+
+        // Configure textContainer
+        textContainer.lineFragmentPadding = 0.0
+        textContainer.lineBreakMode = label.lineBreakMode
+        textContainer.maximumNumberOfLines = label.numberOfLines
+        let labelSize = label.bounds.size
+        textContainer.size = labelSize
+
+        // Find the tapped character location and compare it to the specified range
+        let locationOfTouchInLabel = self.location(in: label)
+        let textBoundingBox = layoutManager.usedRect(for: textContainer)
+        //let textContainerOffset = CGPointMake((labelSize.width - textBoundingBox.size.width) * 0.5 - textBoundingBox.origin.x,
+                                              //(labelSize.height - textBoundingBox.size.height) * 0.5 - textBoundingBox.origin.y);
+        let textContainerOffset = CGPoint(x: (labelSize.width - textBoundingBox.size.width) * 0.5 - textBoundingBox.origin.x, y: (labelSize.height - textBoundingBox.size.height) * 0.5 - textBoundingBox.origin.y)
+
+        //let locationOfTouchInTextContainer = CGPointMake(locationOfTouchInLabel.x - textContainerOffset.x,
+                                                        // locationOfTouchInLabel.y - textContainerOffset.y);
+        let locationOfTouchInTextContainer = CGPoint(x: locationOfTouchInLabel.x - textContainerOffset.x, y: locationOfTouchInLabel.y - textContainerOffset.y)
+        let indexOfCharacter = layoutManager.characterIndex(for: locationOfTouchInTextContainer, in: textContainer, fractionOfDistanceBetweenInsertionPoints: nil)
+        return NSLocationInRange(indexOfCharacter, targetRange)
+    }
+
 }

@@ -48,14 +48,14 @@
 "total" = "Total : ";
 "apply" = "Apply";
 "do_you_have_promo_code" = "Do you have a promo code?";
-"please_select_one_payment_method" = "Please select one payment method";
+"please_select_one_payment_method" = "Please select one payment method.";
 "credit_debitcard" = "Credit / Debit Card";
 "bank_transfer" = "Bank Transfer";
 "pay_at_venue" = "Pay At Venue";
 "i_have_read_accept_the" = "I have read and accept the";
 "terms_conditions" = "Terms & Conditions";
 "and" = "And";
-"release_agreement." = "Release Agreement.";
+"release_agreement" = "Release Agreement.";
 "football_pitch_bookings" = "Football Pitch Bookings";
 "" = "";
 "" = "";
